@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 0.875rem;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+}
+
+input {
+  border: none;
+  padding: 0;
+}
+
+input,
+button,
+textarea,
+select {
+  color: inherit;
+  background-color: transparent;
+  font: inherit;
+}

@@ -1,0 +1,24 @@
+.navigation {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navigation__list {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.navigation__link {
+  padding: 0.25rem;
+  color: #202124;
+}
+
+.navigation__link:hover {
+  text-decoration: underline;
+}
+
+.navigation__gap {
+  margin-right: auto;
+}
